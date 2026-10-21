@@ -1,0 +1,94 @@
+{% extends "_base.html" %}
+{% set titulek = 'Stanislav Jagelka – stavebná firma Rabča' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  {{ img('krov-sumrak.jpg', 'Drevený krov rozostavaného domu proti zapadajúcemu slnku', sizes='100vw', cls='hero-foto') }}
+  <div class="hero-in wrap">
+    <p class="znacka">Stavebná firma · Rabča</p>
+    <h1>Stanislav Jagelka</h1>
+    <p class="hero-text">Rodinné domy, rekonštrukcie, murárske a zemné práce. Od výkopu až po strechu.</p>
+    <a class="tl" href="#kontakt">Nezáväzný dopyt</a>
+  </div>
+</section>
+
+<section class="uvod wrap">
+  <h2>Stavba má svoje poradie. Preto ju prechádzame etapu po etape.</h2>
+  <p>Stanislav Jagelka je stavebná firma z Rabče. Robí novostavby, prístavby a rekonštrukcie, ako aj jednotlivé murárske a zemné práce. Napíšte, čo plánujete, a pripravíme ponuku.</p>
+</section>
+
+<section class="etapy wrap" id="etapy">
+  <h2 class="etapy-nadpis">Etapy stavby</h2>
+  <div class="os" aria-hidden="true"><i></i></div>
+  <ol role="list" class="etapy-zoznam">
+    <li class="etapa">
+      <div class="etapa-text">
+        <p class="etapa-stitok">Základ</p>
+        <h3>Zemné práce</h3>
+        <p>Výkopy, základy a terénne úpravy. Všetko ostatné stojí na tomto kroku, preto sa mu venuje pozornosť hneď na začiatku. Pred prácou sa spolu zhodneme na rozsahu a termíne.</p>
+      </div>
+      <div class="etapa-foto">{{ img('stavenisko.jpg', 'Stavenisko so žeriavom a stavbármi pri západe slnka', sizes='(min-width: 60rem) 40vw, 90vw') }}</div>
+    </li>
+    <li class="etapa">
+      <div class="etapa-text">
+        <p class="etapa-stitok">Hrubá stavba</p>
+        <h3>Murárske práce a rodinné domy na kľúč</h3>
+        <p>Murovanie, omietky a menšie stavebné úpravy. Pri rodinnom dome na kľúč vedieme výstavbu od základov po odovzdanie, takže máte jedného kontaktného partnera.</p>
+      </div>
+      <div class="etapa-foto">{{ img('muriva.jpg', 'Murár kladie tehly pri stavbe múra', sizes='(min-width: 60rem) 40vw, 90vw') }}</div>
+    </li>
+    <li class="etapa">
+      <div class="etapa-text">
+        <p class="etapa-stitok">Nadstavba</p>
+        <h3>Prístavby a stavebné práce</h3>
+        <p>Novostavby, prístavby a menšie stavebné úpravy domov aj nebytových priestorov. Napíšte, čo potrebujete rozšíriť alebo dostavať, a navrhneme ďalší postup.</p>
+      </div>
+      <div class="etapa-foto">{{ img('krov-drevo.jpg', 'Drevená konštrukcia krovu zospodu', sizes='(min-width: 60rem) 40vw, 90vw') }}</div>
+    </li>
+    <li class="etapa">
+      <div class="etapa-text">
+        <p class="etapa-stitok">Dokončenie</p>
+        <h3>Rekonštrukcie</h3>
+        <p>Rekonštrukcie bytov, domov a nebytových priestorov. Pri práci dbáme na to, aby po nás zostalo upratané, a termín dohodneme vopred.</p>
+      </div>
+      <div class="etapa-foto">{{ img('rekonstrukcia.jpg', 'Drevená podlaha v teplom svetle po dokončení rekonštrukcie', sizes='(min-width: 60rem) 40vw, 90vw') }}</div>
+    </li>
+  </ol>
+</section>
+
+<section class="postup" id="postup">
+  <div class="wrap">
+    <h2>Ako spolupráca prebieha</h2>
+    <ol role="list" class="kroky">
+      <li><h3>Dopyt</h3><p>Napíšete nám, čo potrebujete. Stačí pár viet alebo fotka.</p></li>
+      <li><h3>Obhliadka</h3><p>Dohodneme termín a pozrieme sa na to priamo na mieste.</p></li>
+      <li><h3>Cenová ponuka</h3><p>Dostanete jasnú ponuku s cenou a termínom.</p></li>
+      <li><h3>Realizácia</h3><p>Prácu urobíme poriadne a po sebe upraceme.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="kontakt" id="kontakt">
+  <div class="wrap kontakt-mriezka">
+    <div>
+      <h2>Postavme niečo, čo vydrží.</h2>
+      <p class="kontakt-uvod">Napíšte, čo plánujete: novostavbu, rekonštrukciu alebo menšie stavebné práce.</p>
+      <dl class="udaje">
+        <dt>Telefón</dt><dd><a href="tel:+421902366714">+421 902 366 714</a></dd>
+        <dt>E-mail</dt><dd><a href="mailto:jagelkastanislav@gmail.com">jagelkastanislav@gmail.com</a></dd>
+        <dt>Adresa</dt><dd>Kostolná 1108, 029 44 Rabča</dd>
+        <dt>IČO</dt><dd>41728521</dd>
+      </dl>
+    </div>
+    <form class="formular" method="post" data-endpoint="" data-demo="1">
+      <label>Meno <input name="meno" autocomplete="name" required></label>
+      <label>E-mail <input name="email" type="email" autocomplete="email" required></label>
+      <label>Telefón <input name="telefon" type="tel" autocomplete="tel"></label>
+      <label>Správa <textarea name="sprava" rows="5" required></textarea></label>
+      <div class="past" aria-hidden="true"><label>Nevypĺňať <input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+      <button type="submit">Odoslať dopyt</button>
+      <p class="formular-stav" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+{% endblock %}

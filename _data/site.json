@@ -1,0 +1,51 @@
+{
+  "slug": "sk-jagelka",
+  "nazev": "Stanislav Jagelka",
+  "url": "https://webhunter-navrhy.github.io/sk-jagelka/",
+  "base": "/sk-jagelka/",
+  "lang": "sk",
+  "popis": "Stanislav Jagelka, stavebná firma z Rabče: rodinné domy, rekonštrukcie, murárske a zemné práce.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "krov-sumrak.jpg",
+  "logo": "",
+  "theme_color": "#f2ede4",
+  "typ": "LocalBusiness",
+  "ico": "41728521",
+  "kontakt": {
+    "email": "jagelkastanislav@gmail.com",
+    "telefon": "+421 902 366 714",
+    "adresa": {
+      "ulice": "Kostolná 1108",
+      "psc": "02944",
+      "mesto": "Rabča",
+      "zeme": "SK"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Dopyt z webu"
+  },
+  "nav": [
+    {
+      "text": "Etapy stavby",
+      "href": "#etapy"
+    },
+    {
+      "text": "Postup",
+      "href": "#postup"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    },
+    {
+      "href": "tel:+421902366714",
+      "text": "Zavolať"
+    }
+  ]
+}

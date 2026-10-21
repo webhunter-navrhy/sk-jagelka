@@ -1,0 +1,3 @@
+Ilustračné fotky (Unsplash, licencia Unsplash), vybrané z kampane sk-stavba-remesla (zdroje.json):
+krov-sumrak.jpg = stavebne/02.jpg, muriva.jpg = stavebne/06.jpg, ruky.jpg = stavebne/07.jpg, omietka.jpg = dokoncovacie/07.jpg, krov-drevo.jpg = strechy/08.jpg
+Fotky sú zatiaľ ilustračné, nahradia sa fotkami z realizácií klienta.

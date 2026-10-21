@@ -1,0 +1,36 @@
+{
+ "slug": "sk-jagelka",
+ "zdroj_url": null,
+ "firma": "Stanislav Jagelka",
+ "obor": [
+  "stavebná firma",
+  "rodinné domy",
+  "rekonštrukcie",
+  "zemné práce"
+ ],
+ "ico": "41728521",
+ "ares": null,
+ "kontakty": {
+  "email": "jagelkastanislav@gmail.com",
+  "telefon": "+421 902 366 714",
+  "adresa": "Kostolná 1108, 02944 Rabča"
+ },
+ "logo": null,
+ "barvy": {
+  "papier": "#f2ede4",
+  "uhlik": "#1f1c19",
+  "tehla": "#b4492a"
+ },
+ "fotky": [],
+ "fakta": [
+  "Zemné práce",
+  "Murárske práce a rodinné domy na kľúč",
+  "Prístavby a stavebné práce",
+  "Rekonštrukcie"
+ ],
+ "chybi": [
+  "logo",
+  "fotky z realizácií (použité ilustračné)",
+  "overené texty od klienta"
+ ]
+}

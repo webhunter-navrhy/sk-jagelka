@@ -1,0 +1,17 @@
+{
+  "znamka": 7,
+  "slabiny": [
+    "Etapy stavby, Zemné práce (PC buňka 2, mobil buňka 2): výtka není opravená. Pořád je tam stejná silueta dělníků na lešení s jeřábem, tedy hrubá stavba, ne výkop. Spodní polovina fotky je navíc čistě černá plocha (na PC přetéká jako černý pruh až do buňky 3). Oprava: dát fotku bagru nebo výkopu základů v teplé gradaci jako hero a oříznout ji tak, aby černá plocha nezabírala půlku rámu.",
+    "Etapy stavby, Rekonštrukcie (PC buňka 4, mobil buňka 4): studenou koupelnu nahradila fotka suchého listu na parketách. Gradace teď sedí, ale obsah nemá s rekonstrukcí nic společného a působí jako dekorativní stock. Oprava: dát interiér během prací (otlučená omítka, zbouraná příčka, lešení v místnosti nebo hrubá podlaha) a v mailu si od klienta vyžádat fotky z jeho realizací.",
+    "Hero na mobilu (390/360 px, buňka 1): silueta krovu je v horní polovině skoro černá a oranžový západ slunce z PC verze se do mobilního výřezu nevejde. Hero tak na telefonu působí jako tmavý blok bez obrazu. Oprava: na mobilu posunout object-position ke světlé části oblohy (zhruba 60–70 % vpravo nahoře), případně fotku zesvětlit, aby byl krov proti obloze čitelný."
+  ],
+  "zavazne": [],
+  "silne": [
+    "Opravené: mobilní hlavička je teď jeden nízký řádek s názvem vlevo a tlačítkem Zavolať vpravo a už nezabírá pětinu obrazovky.",
+    "Opravené: kontakt na PC má rozumné horní odsazení, telefon je výrazný a podtržený jako hlavní kontakt, kontakty a formulář jsou přehledné na PC i mobilu.",
+    "Koncept časové osy Etapy stavby (Základ → Hrubá stavba → Nadstavba → Dokončenie) vychází z oboru a pokračuje i v sekci Ako spolupráca prebieha. Teplá paleta papír, uhlík a tehla je střídmá a bez AI vzorů.",
+    "Fotky zdění rukou a dřevěného krovu sedí k oboru a ladí s teplou gradací. Nic vymyšleného, fakta odpovídají briefu, QA bez chyb a přetečení."
+  ],
+  "verdikt": "Hlavička na mobilu i kontakt jsou opravené, fotky v Etapách stavby ale zůstávají slabé místo: Zemné práce mají pořád lešení místo výkopu a Rekonštrukcie list na parketách. Po výměně těchto dvou fotek a úpravě výřezu hero na mobilu je web na 8.",
+  "_hash": "6d77c626d824d3814ffba8bab00893070ad1d857"
+}
